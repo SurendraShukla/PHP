@@ -1,0 +1,18 @@
+<phpunit
+        colors="false"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        syntaxCheck="false"
+        timeoutForLargeTests="100"
+>
+    <testsuites>
+        <testsuite name="AllTests">
+            <directory suffix="php">src</directory>
+            <directory suffix="php">SOLID</directory>
+            <directory suffix="php">suren</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

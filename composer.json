@@ -1,0 +1,9 @@
+{
+    "autoload" : {
+        "classmap" : [ "src/" ]
+    },
+    "require" : {
+        "phpunit/phpunit" : "6.2.1",
+        "mikey179/vfsStream": "1.6.4"
+    }
+}
