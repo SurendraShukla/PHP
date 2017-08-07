@@ -2,6 +2,7 @@
 
 namespace src\SOLID\OCP\Violation;
 
+use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
 class PaymentManagerTest extends TestCase {
@@ -13,9 +14,10 @@ class PaymentManagerTest extends TestCase {
 
         $paymentManager = new PaymentManager('Paypal');
         $paymentManager = new PaymentManager('GoogleWallet');
-         $paymentManager = new PaymentManager('CreditCard');
+        $paymentManager = new PaymentManager('CreditCard');
         $paymentManager->process();
 
+        Assert::assertTrue(true);
     }
 
 }

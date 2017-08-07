@@ -1,5 +1,6 @@
 <?php
 
+use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 use src\SOLID\LSP\Driver;
 use src\SOLID\LSP\Car;
@@ -19,6 +20,7 @@ class DriverTest extends TestCase {
 
         $driver = new Driver($car);
         $driver->go();
+        Assert::assertTrue(true);
     }
 
 }

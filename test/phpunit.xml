@@ -11,8 +11,19 @@
     <testsuites>
         <testsuite name="AllTests">
             <directory suffix="php">src</directory>
+            <directory suffix="php">coding_dojo</directory>
+            <directory suffix="php">shopping_cart_ee</directory>
             <directory suffix="php">SOLID</directory>
             <directory suffix="php">suren</directory>
         </testsuite>
     </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">../src</directory>
+        </whitelist>
+    </filter>
+    <logging> <!-- Stubbing out Clover reporting until Anthill server is ready to do it -->
+        <log type="junit" target="code-coverage/unit-test-exec-report.xml"/>
+        <log type="coverage-clover" target="code-coverage/clover-coverage.xml"/>
+    </logging>
 </phpunit>

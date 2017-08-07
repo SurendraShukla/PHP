@@ -1,5 +1,6 @@
 <?php
 
+use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 use src\SOLID\ISP\Violation\Parrot;
 use src\SOLID\ISP\Violation\Penguin;
@@ -16,7 +17,7 @@ class InterfaceSeperationTest extends TestCase {
 //        $bird = new Pigeon();
 //        $bird = new Penguin();
         $bird->fly();
-
+        Assert::assertTrue(true);
     }
 
 }

@@ -2,6 +2,7 @@
 
 namespace src\SOLID\SRP\Violation;
 
+use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
 class BookTest extends TestCase{
@@ -13,6 +14,7 @@ class BookTest extends TestCase{
         $book = new Book();
         $book->printCurrentPage();
         $book->save();
+        Assert::assertTrue(true);
     }
     
 }

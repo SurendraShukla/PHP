@@ -2,6 +2,7 @@
 
 namespace src\SOLID\SRP\Violation;
 
+use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
 class UserTest extends TestCase{
@@ -12,6 +13,8 @@ class UserTest extends TestCase{
     public function classHasMoreThanOneResponsibility() {
         $user = new User();
         $user->create('surendra');
+
+        Assert::assertTrue(true);
     }
     
 }

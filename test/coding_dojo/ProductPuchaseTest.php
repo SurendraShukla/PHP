@@ -12,9 +12,9 @@ class ProductPuchaseTest extends TestCase {
         $this->productPurchase = new ProductPurchase();
     }
 
-    public function testProductPurchaseByDealerIsInValidForProductPurchasing() {
-//        $this->assertFalse($this->productPurchase->isValidPurchase($productPruchaseList));
-    }
+//    public function testProductPurchaseByDealerIsInValidForProductPurchasing() {
+////        $this->assertFalse($this->productPurchase->isValidPurchase($productPruchaseList));
+//    }
 
     public function testProductPurchaseByDealerIsInValidForInValidProductPurchasing() {
         $productPruchaseList = array('Maintenance' => 0,
@@ -77,14 +77,14 @@ class ProductPuchaseTest extends TestCase {
         );
         $this->assertTrue($this->productPurchase->isValidPurchase($productPruchaseList));
     }
-
-    public function testInvalidPurchasingIfProductPurchasingHasIncorrectIncrementValue() {
-        $productPruchaseList = array(
-            'Maintenance' => 1000,
-            'Parts' => 1100,
-            'Body' => 0,
-            'ShopTires'=> 0
-        );
-//        $this->assertFalse($this->productPurchase->isValidPurchase($productPruchaseList));
-    }
+//
+//    public function testInvalidPurchasingIfProductPurchasingHasIncorrectIncrementValue() {
+//        $productPruchaseList = array(
+//            'Maintenance' => 1000,
+//            'Parts' => 1100,
+//            'Body' => 0,
+//            'ShopTires'=> 0
+//        );
+////        $this->assertFalse($this->productPurchase->isValidPurchase($productPruchaseList));
+//    }
 }

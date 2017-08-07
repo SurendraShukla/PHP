@@ -3,4 +3,8 @@ vendor
 composer.phar
 PHP_TDD.iml
 phpunit-6.2.1.phar
+code-coverage
+sonar-project.properties
+sonar-runner-2.4
+
 
