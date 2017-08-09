@@ -12,7 +12,7 @@ class ShoppersStop {
     }
 
     public function getBillAmount($purchaseAmount) {
-        return $this->_customer->getBillAmount($purchaseAmount);;
+        return $this->_customer->getBillAmount($purchaseAmount);
     }
 
 

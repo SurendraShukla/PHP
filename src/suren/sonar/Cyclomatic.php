@@ -25,6 +25,18 @@ class Cyclomatic {
     }
 
     // Cyclomatic Complexity 4
+    public function getWords(int $number): String{  // +1
+        switch ($number) {
+            case 1:                                 // +1
+                return "one";
+            case 2:                                 // +1
+                return "a couple";
+            default:                                // +1
+                return "lots";
+        }
+    }
+
+    // Cyclomatic Complexity 4
     public function sumOfPrimes(int $max): int{     // +1
         int:
         $total = 0;
@@ -37,18 +49,6 @@ class Cyclomatic {
             $total += $i;
         }
         return $total;
-    }
-
-    // Cyclomatic Complexity 4
-    public function getWords(int $number): String{  // +1
-        switch ($number) {
-            case 1:                                 // +1
-                return "one";
-            case 2:                                 // +1
-                return "a couple";
-            default:                                // +1
-                return "lots";
-        }
     }
 
 }
