@@ -1,4 +1,5 @@
 <?php
+
 $gen = (function() {
     yield 1;
     yield 2;
@@ -13,6 +14,10 @@ foreach ($gen as $val) {
 echo $gen->getReturn(), PHP_EOL;
 
 
+/*
+ * allows you to return another iterable structure that can itself be traversed
+ *  — whether that is an array, an iterator, or another generator.
+ * */
 function gen1() {
     yield 1;
     yield 2;
