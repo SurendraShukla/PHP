@@ -1,6 +1,6 @@
 <?php
 
-$max = 10000000;
+$max = 100;
 
 /*print_r(range(1, $max));
 function rangeFun() {
@@ -13,7 +13,7 @@ function rangeFun() {
 }
 rangeFun();*/
 
-/*
+
 function rangeYield() {
     global $max;
     for ($i=0; $i<$max; $i++) {
@@ -22,5 +22,5 @@ function rangeYield() {
 }
 
 foreach(rangeYield() as $post)
-    echo "\n".$post;*/
+    echo "\n".$post;
 
