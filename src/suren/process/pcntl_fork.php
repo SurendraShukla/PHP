@@ -3,7 +3,7 @@ for ($i = 1; $i <= 5; ++$i) {
     $pid = pcntl_fork();
 
     if (!$pid) {
-        sleep(120);
+        sleep(60);
         print "In child $i\n";
         exit($i);
     }
