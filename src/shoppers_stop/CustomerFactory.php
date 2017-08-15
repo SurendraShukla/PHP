@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: shuklas
- * Date: 9/3/15
- * Time: 8:45 PM
- */
 
 namespace src\suren\ShoppersStop;
 
