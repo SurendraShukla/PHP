@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Class SwapNumbers
- * -- Swap 2 Variables without using any temporary variable
- */
-
 class SwapNumbers {
 
     public static function swapNumberUsingArithmeticOperators($no1, $no2) {
