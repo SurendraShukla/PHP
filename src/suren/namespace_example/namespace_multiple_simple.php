@@ -7,7 +7,7 @@ function printName() {
     echo "Hello " . $name;
 }
 
-namespace src\suren\oops\tmp2;
+namespace src\suren\namespace_example\tmp2;
 $cityName = 'Pune';
 
 function printCity() {

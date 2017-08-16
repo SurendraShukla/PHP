@@ -1,11 +1,11 @@
 <?php
 
-namespace src\suren\oops\oops;
+namespace src\suren\namespace_example;
 
 include 'global.php';
 
 
-use function src\suren\oops\printCity;
+use function src\suren\namespace_example\printCity;
 
 class GlobalClass {
 

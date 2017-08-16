@@ -25,7 +25,7 @@ $obj->useGlobalFun();
 */
 
 /*
-namespace src\suren\oops;
+namespace src\suren\namespace_example;
 $cityName = 'Pune';
 
 function printCity() {
