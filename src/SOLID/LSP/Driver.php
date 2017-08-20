@@ -10,7 +10,7 @@ class Driver {
      * Driver constructor.
      * @param Car $car
      */
-    public function __construct($car) {
+    public function __construct(Car $car) {
         $this->car = $car;
     }
 

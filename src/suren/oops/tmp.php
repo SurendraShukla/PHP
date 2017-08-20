@@ -1,34 +1,55 @@
 <?php
-class Foo
-{
-    public static $my_static = 'foo';
 
-    public function staticValue() {
-        echo "\n inside staticValue [".self::$my_static."]";
-        return static::$my_static;
+namespace src\suren\oops;
+
+//class StaticVsNonstatic {
+//
+//    const       STAT = 'S' ; // no dollar sign for constants (they are always static)
+//    static     $stat = 'Static' ;
+//    public     $publ = 'Public' ;
+//    private    $priv = 'Private' ;
+//    protected  $prot = 'Protected' ;
+//
+//    function __construct( ){  }
+//
+//
+//    public function showMe( ){
+//        print "\n self::STAT:"  . self::STAT; // refer to a (static) constant like this
+//        print "\n self::\$stat:" . self::$stat; // static variable
+//        print "\n $this->stat:" . $this->stat; // legal, but not what you might think: empty result
+//        print "\n $this->publ:" . $this->publ; // refer to an object variable like this
+//        print "\n ";
+//    }
+//}
+//$obj = new StaticVsNonstatic();
+//$obj->showMe();
+//
+//
+
+class A {
+    private function foo() {
+        echo "success!\n";
+    }
+    public function test() {
+        $this->foo();
+        static::foo();
     }
 }
 
-class Bar extends Foo
-{
-    public static $my_static = 'bar';
-    public function fooStatic() {
-        return parent::$my_static;
+class B extends A {
+    /* foo() will be copied to B, hence its scope will still be A and
+     * the call be successful */
+}
+
+class C extends A {
+    private function foo() {
+        /* original method is replaced; the scope of the new one is C */
     }
 }
 
+$b = new B();
+$b->test();
+$c = new C();
+//$c->test();   //fails
 
-print Foo::$my_static . "\n";
 
-$foo = new Foo();
-print $foo->staticValue() . "\n";
-//print $foo->my_static . "\n";      // Undefined "Property" my_static
-
-print $foo::$my_static . "\n";
-$classname = 'Foo';
-print $classname::$my_static . "\n"; // As of PHP 5.3.0
-
-print Bar::$my_static . "\n";
-$bar = new Bar();
-print $bar->fooStatic() . "\n";
-print $bar->staticValue() . "\n";

@@ -1,4 +1,7 @@
 <?php
+
+namespace src\suren\php7_features;
+
 class A {
     private $x = 1;
     private $y = 2;

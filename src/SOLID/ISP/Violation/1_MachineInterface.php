@@ -4,15 +4,15 @@ namespace src\SOLID\ISP\Violation;
 
 interface MachineInterface {
     public function printCopy();
+    public function photoCopy();
     public function scan();
     public function fax();
-    public function photoCopy();
 }
 class XeroxMachine implements MachineInterface {
     public function printCopy(){  }
+    public function photoCopy(){  }
     public function scan(){ }
     public function fax(){  }
-    public function photoCopy(){  }
 }
 class CanonMachine implements MachineInterface {
     public function printCopy(){  }

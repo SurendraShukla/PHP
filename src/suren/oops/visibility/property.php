@@ -1,5 +1,8 @@
 <?php
-class MyClass {
+
+namespace src\suren\oops\visibility;
+
+class PropertyClassParent {
     public $public = 'Public';
     protected $protected = 'Protected';
     private $private = 'Private';
@@ -11,7 +14,7 @@ class MyClass {
     }
 }
 
-$obj = new MyClass();
+$obj = new PropertyClassParent();
 echo $obj->public; // Works
 //echo $obj->protected; // Fatal Error
 //echo $obj->private; // Fatal Error
@@ -21,7 +24,7 @@ $obj->printHello(); // Shows Public, Protected and Private
 /**
  * Define MyClass2
  */
-class MyClass2 extends MyClass
+class PropertyClassChild extends PropertyClassParent
 {
     // We can redeclare the public and protected properties, but not private
     public $public = 'Public2';
@@ -35,7 +38,7 @@ class MyClass2 extends MyClass
     }
 }
 
-$obj2 = new MyClass2();
+$obj2 = new PropertyClassChild();
 echo $obj2->public; // Works
 //echo $obj2->protected; // Fatal Error
 //echo $obj2->private; // Undefined

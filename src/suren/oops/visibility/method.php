@@ -1,5 +1,8 @@
 <?php
-class MyClass
+
+namespace src\suren\oops\visibility;
+
+class MethodClassParent
 {
     // Declare a public constructor
     public function __construct() { }
@@ -22,7 +25,7 @@ class MyClass
     }
 }
 
-$myclass = new MyClass;
+$myclass = new MethodClassParent;
 $myclass->MyPublic(); // Works
 //$myclass->MyProtected(); // Fatal Error
 //$myclass->MyPrivate(); // Fatal Error
@@ -32,7 +35,7 @@ $myclass->Foo(); // Public, Protected and Private work
 /**
  * Define MyClass2
  */
-class MyClass2 extends MyClass
+class MethodClassChild extends MethodClassParent
 {
     // This is public
     function Foo2()
@@ -43,7 +46,7 @@ class MyClass2 extends MyClass
     }
 }
 
-$myclass2 = new MyClass2;
+$myclass2 = new MethodClassChild;
 $myclass2->MyPublic(); // Works
 $myclass2->Foo2(); // Public and Protected work, not Private
 
