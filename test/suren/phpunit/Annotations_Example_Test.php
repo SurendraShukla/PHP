@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: shuklas
- * Date: 6/4/17
- * Time: 1:27 AM
- */
+declare(strict_types=1);
 
 namespace test\suren;
 
@@ -27,7 +22,7 @@ class Annotations_Example_Test extends TestCase {
 //
 //    /**
 //     * @test
-//     * @small
+//     * @group small 1
 //     */
 //    public function small() {
 //        echo 'Demo_Annotations-small';

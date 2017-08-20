@@ -6,7 +6,8 @@
         processIsolation="false"
         stopOnFailure="false"
         syntaxCheck="false"
-        timeoutForLargeTests="100"
+        timeoutForSmallTests="1"
+        timeoutForLargeTests="60"
 >
     <testsuites>
         <testsuite name="AllTests">

@@ -33,3 +33,4 @@ namespace src\suren\design_patterns\singleton;
 
 
 //http://stackoverflow.com/questions/203336/creating-the-singleton-design-pattern-in-php5
+

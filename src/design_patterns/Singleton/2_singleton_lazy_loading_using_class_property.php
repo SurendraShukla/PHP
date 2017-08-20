@@ -30,20 +30,21 @@ class SingletonClassUsesClassProperty
     ///Now we are all done, we can now proceed to have any other method logic we want
 
     //a simple method to echo something
-    public function GreetMe()
+    public function logAndPrintMessage()
     {
-        echo '<br />Hello, this method is called by using a singleton object..';
+        file_put_contents('tmp.txt', date('Y-m-d h:m:s')."\n", FILE_APPEND);
+        echo 'Event executed at '.date('Y-m-d h:m:s');
     }
 
 }//END Class
-
-///Testing some calls to that class
+//
+/////Testing some calls to that class
 $obj1 = SingletonClassUsesClassProperty::getInstance();
-$obj2 = SingletonClassUsesClassProperty::getInstance();
-$obj3 = SingletonClassUsesClassProperty::getInstance();
-
-$obj1->GreetMe();
-$obj2->GreetMe();
-$obj3->GreetMe();
+//$obj2 = SingletonClassUsesClassProperty::getInstance();
+//$obj3 = SingletonClassUsesClassProperty::getInstance();
+//
+$obj1->logAndPrintMessage();
+//$obj2->logAndPrintMessage();
+//$obj3->logAndPrintMessage();
 
 // http://7php.com/how-to-code-a-singleton-design-pattern-in-php-5/

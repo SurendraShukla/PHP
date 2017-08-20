@@ -34,13 +34,13 @@ class Exception_Example_Test extends TestCase {
         Exception_Example::throwCustomException();
     }
 
-//    /**
-//     * @test
-//     * @expectedException SurendraException
-//     */
-//    public function ableToHandleCustomExceptionUsingAnnotations(){
-//        Demo_Exception::throwCustomException();
-//    }
+    /**
+     * @test
+     * @expectedException SurendraException
+     */
+    public function ableToHandleCustomExceptionUsingAnnotations(){
+        Demo_Exception::throwCustomException();
+    }
 
 
 }

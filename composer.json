@@ -1,6 +1,9 @@
 {
     "autoload" : {
-        "classmap" : [ "src/" ]
+      "psr-4": {
+            "": "src/"
+      },
+      "classmap" : [ "src/"]
     },
     "require" : {
         "php": "^7.0",
