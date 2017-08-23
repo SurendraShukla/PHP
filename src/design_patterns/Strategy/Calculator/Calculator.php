@@ -4,10 +4,10 @@ namespace design_patterns\Strategy;
 
 //require '/Suren/GitHub/PHP_Composer_Project/vendor/autoload.php';
 
-use src\suren\design_patterns\Strategy\behaviour\MultiplyOperator;
-use src\suren\design_patterns\Strategy\behaviour\Operator;
-use src\suren\design_patterns\Strategy\behaviour\RestOperator;
-use src\suren\design_patterns\Strategy\behaviour\SumOperator;
+use design_patterns\Strategy\behaviour\Operator;
+use design_patterns\Strategy\behaviour\MultiplyOperator;
+use design_patterns\Strategy\behaviour\RestOperator;
+use design_patterns\Strategy\behaviour\SumOperator;
 
 class Calculator {
 

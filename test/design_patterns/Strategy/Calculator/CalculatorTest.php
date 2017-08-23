@@ -4,11 +4,11 @@ namespace design_patterns\Strategy\Calculator;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\suren\design_patterns\Strategy\behaviour\DivideOperator;
-use src\suren\design_patterns\Strategy\behaviour\MultiplyOperator;
-use src\suren\design_patterns\Strategy\behaviour\RestOperator;
-use src\suren\design_patterns\Strategy\behaviour\SumOperator;
-use src\suren\design_patterns\Strategy\Calculator;
+use design_patterns\Strategy\behaviour\DivideOperator;
+use design_patterns\Strategy\behaviour\MultiplyOperator;
+use design_patterns\Strategy\behaviour\RestOperator;
+use design_patterns\Strategy\behaviour\SumOperator;
+use design_patterns\Strategy\Calculator;
 
 
 class CalculatorTest extends TestCase{

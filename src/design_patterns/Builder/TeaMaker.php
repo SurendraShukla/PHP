@@ -12,7 +12,7 @@ class TeaMaker
         $this->teaBuilder = $teaBuilder;
     }
 
-    public function getTea()
+    public function getTea(): Tea
     {
         return $this->teaBuilder->getTea();
     }
