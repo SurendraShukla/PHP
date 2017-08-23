@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops\final_example;
+namespace suren\oops\final_example;
 
 final class FinalClassParent {
     public function test() {

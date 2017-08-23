@@ -6,7 +6,7 @@
  * Time: 2:08 PM
  */
 
-namespace src\suren\oops;
+namespace suren\oops;
 
 
 class Account {

@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\IceCreamParlor;
+use coding_dojo\IceCreamParlor;
 
 class IceCreamParlorTest extends TestCase {
 

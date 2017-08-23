@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\ShoppersStop;
+namespace suren\ShoppersStop;
 
 
 class BillCalculator {

@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\code_refactoring\before;
+namespace suren\code_refactoring\before;
 
 function printGuessStatistics(string $candidate, int $count)  {
     $number = '';

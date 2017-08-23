@@ -11,8 +11,8 @@ namespace test;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\shopping_cart_ee\Product;
-use src\shopping_cart_ee\ShoppingCart;
+use shopping_cart_ee\Product;
+use shopping_cart_ee\ShoppingCart;
 
 class ShoppingCartTest extends TestCase
 {

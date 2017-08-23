@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\SRP\Violation;
+namespace SOLID\SRP\Violation;
 
 // Two reasons to change
 // 1. To create user

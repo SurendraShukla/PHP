@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\code_refactoring\after;
+namespace suren\code_refactoring\after;
 
 
 class GuessStatisticsMessage

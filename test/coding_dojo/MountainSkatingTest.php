@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\MountainSkating;
+use coding_dojo\MountainSkating;
 
 Class MountainSkatingTest extends TestCase {
 

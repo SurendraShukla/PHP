@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\SRP;
+namespace SOLID\SRP;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;

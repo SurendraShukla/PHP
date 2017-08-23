@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\LastStoneFinder;
+use coding_dojo\LastStoneFinder;
 
 class LastStoneFinderTest extends TestCase {
 

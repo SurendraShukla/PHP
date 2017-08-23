@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\namespace_example;
+namespace suren\namespace_example;
 
 include 'global.php';
 

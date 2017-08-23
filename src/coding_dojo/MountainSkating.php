@@ -1,6 +1,6 @@
 <?php
 
-namespace src\coding_dojo;
+namespace coding_dojo;
 
 class MountainSkating{
 	

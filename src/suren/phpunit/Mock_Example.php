@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren;
+namespace suren;
 
 
 class Mock_Example {

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\suren\ShoppersStop\ShoppersStop;
+use suren\ShoppersStop\ShoppersStop;
 
 class ShoppersStopTest extends TestCase {
 

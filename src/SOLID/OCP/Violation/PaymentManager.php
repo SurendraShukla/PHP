@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\OCP\Violation;
+namespace SOLID\OCP\Violation;
 
 class PaymentManager{
 

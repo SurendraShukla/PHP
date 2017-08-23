@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\ISP;
+namespace SOLID\ISP;
 
 interface MachineInterface {
     public function printCopy();

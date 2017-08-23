@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\SOLID\LSP\Violation\Rectangle;
-use src\SOLID\LSP\Violation\Square;
+use SOLID\LSP\Violation\Rectangle;
+use SOLID\LSP\Violation\Square;
 
 class RectangleTest extends TestCase {
 

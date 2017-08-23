@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\DIP\Violation;
+namespace SOLID\DIP\Violation;
 
 
 /**

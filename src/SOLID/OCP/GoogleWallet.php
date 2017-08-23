@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\OCP;
+namespace SOLID\OCP;
 
 class GoogleWallet extends PaymentMethodInterface{
 

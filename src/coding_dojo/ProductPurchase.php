@@ -1,5 +1,5 @@
 <?php
-namespace src\coding_dojo;
+namespace coding_dojo;
 		
 Class ProductPurchase{
 

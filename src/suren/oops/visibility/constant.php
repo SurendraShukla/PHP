@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops\visibility;
+namespace suren\oops\visibility;
 
 class ConstantClassParent
 {

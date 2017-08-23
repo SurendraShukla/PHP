@@ -1,6 +1,6 @@
 <?php
 
-namespace src\tdd;
+namespace tdd;
 
 
 use InvalidArgumentException;

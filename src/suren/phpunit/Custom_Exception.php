@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren;
+namespace suren;
 
 class Custom_Exception extends \Exception {
 

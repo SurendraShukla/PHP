@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops\object_passing;
+namespace suren\oops\object_passing;
 
 class A {
     public $foo = 1;

@@ -10,7 +10,7 @@ namespace {
     }
 }
 
-namespace src\suren\namespace_example\tmp3 {
+namespace suren\namespace_example\tmp3 {
 
     $cityName = 'Pune';
 

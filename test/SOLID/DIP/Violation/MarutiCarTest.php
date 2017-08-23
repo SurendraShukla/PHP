@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\SOLID\DIP\Violation\MarutiCar;
+use SOLID\DIP\Violation\MarutiCar;
 
 class MarutiCarTest extends TestCase {
 

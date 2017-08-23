@@ -1,8 +1,8 @@
 <?php
 
-namespace src\SOLID\DIP\Violation;
-use src\SOLID\DIP\Violation\MRFTires;
-use src\SOLID\DIP\Violation\SuzukiEngine;
+namespace SOLID\DIP\Violation;
+use SOLID\DIP\Violation\MRFTires;
+use SOLID\DIP\Violation\SuzukiEngine;
 
 // Class is brittle, inflexible, and hard to test.
 // 1. Change in SuzukiEngine - Engine class evolves and its constructor requires a parameter.

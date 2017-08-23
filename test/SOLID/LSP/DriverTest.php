@@ -2,10 +2,10 @@
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\SOLID\LSP\Driver;
-use src\SOLID\LSP\Car;
-use src\SOLID\LSP\Maruti;
-use src\SOLID\LSP\Tata;
+use SOLID\LSP\Driver;
+use SOLID\LSP\Car;
+use SOLID\LSP\Maruti;
+use SOLID\LSP\Tata;
 
 class DriverTest extends TestCase {
 

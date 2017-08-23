@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\LSP;
+namespace SOLID\LSP;
 
 class Maruti extends Car {
 

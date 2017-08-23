@@ -3,7 +3,7 @@
 namespace test\suren;
 
 use PHPUnit\Framework\TestCase;
-use src\suren\Mock_Example;
+use suren\Mock_Example;
 
 class Mock_Example_Test extends TestCase{
 

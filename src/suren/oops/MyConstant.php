@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops;
+namespace suren\oops;
 
 const ONE = 1;
 class MyConstant {

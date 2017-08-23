@@ -1,5 +1,5 @@
 <?php
-namespace src\suren\oops\tmp1;
+namespace suren\oops\tmp1;
 $name = 'Suren';
 
 function printName() {
@@ -7,7 +7,7 @@ function printName() {
     echo "Hello " . $name;
 }
 
-namespace src\suren\namespace_example\tmp2;
+namespace suren\namespace_example\tmp2;
 $cityName = 'Pune';
 
 function printCity() {

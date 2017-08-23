@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\StringUniquePermutation;
+use coding_dojo\StringUniquePermutation;
 
 class StringUniquePermutationsTest extends TestCase {
 

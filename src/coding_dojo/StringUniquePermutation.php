@@ -6,7 +6,7 @@
  * Time: 2:26 PM
  */
 
-namespace src\coding_dojo;
+namespace coding_dojo;
 
 class StringUniquePermutation {
 

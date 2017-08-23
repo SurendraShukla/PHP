@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\Wrapper;
+use coding_dojo\Wrapper;
 
 class WrapperTest extends TestCase {
 

@@ -3,7 +3,7 @@
 namespace test\suren;
 
 use PHPUnit\Framework\TestCase;
-use src\suren\FileSystem_Example;
+use suren\FileSystem_Example;
 
 class FileSystem_Example_Test extends TestCase {
 

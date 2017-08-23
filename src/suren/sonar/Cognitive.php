@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\sonar;
+namespace suren\sonar;
 
 /*
  * Cognitive Complexity for measuring maintainability

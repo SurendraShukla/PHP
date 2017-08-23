@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\php7_features;
+namespace suren\php7_features;
 
 class A {
     private $x = 1;

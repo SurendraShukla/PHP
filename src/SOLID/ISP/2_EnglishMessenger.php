@@ -1,7 +1,7 @@
 <?php
 
-namespace src\SOLID\ISP;
-namespace src\SOLID\ISP;
+namespace SOLID\ISP;
+namespace SOLID\ISP;
 
 class EnglishMessenger implements LoginMessenger, WithdrawalMessenger {
 

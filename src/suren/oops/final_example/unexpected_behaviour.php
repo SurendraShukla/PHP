@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops\final_example;
+namespace suren\oops\final_example;
 
 /*
  * Such behaviour looks slight unexpected because in child class we cannot know, which private methods exists in a parent class and vice versa.

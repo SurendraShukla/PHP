@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\OCP;
+namespace SOLID\OCP;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;

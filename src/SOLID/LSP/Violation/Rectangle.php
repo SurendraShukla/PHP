@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\LSP\Violation;
+namespace SOLID\LSP\Violation;
 
 class Rectangle {
 

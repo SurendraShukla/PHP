@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\oops;
+namespace suren\oops;
 
 
 class ParentClass

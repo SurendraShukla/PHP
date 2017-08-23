@@ -7,8 +7,8 @@ namespace design_patterns\Strategy;
 ///** @var \Composer\Autoload\ClassLoader $loader */
 //require $currentDir.'/../../vendor/autoload.php';
 
-use src\suren\design_patterns\Strategy\behaviour\Operator;
-use src\suren\design_patterns\Strategy\behaviour\SumOperator;
+use suren\design_patterns\Strategy\behaviour\Operator;
+use suren\design_patterns\Strategy\behaviour\SumOperator;
 
 class CalculatorNew {
 

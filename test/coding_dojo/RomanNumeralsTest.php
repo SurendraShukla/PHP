@@ -4,7 +4,7 @@ namespace test;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\RomanNumerals;
+use coding_dojo\RomanNumerals;
 
 class RomanNumeralsTest extends TestCase {
 

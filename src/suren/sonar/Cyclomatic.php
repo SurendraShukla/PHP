@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\sonar;
+namespace suren\sonar;
 
 /*
  * Cyclomatic Complexity works very well for measuring testability

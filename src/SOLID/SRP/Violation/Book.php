@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\SRP\Violation;
+namespace SOLID\SRP\Violation;
 
  /*
   * 3 Different actors.

@@ -3,7 +3,7 @@
 namespace test\tdd;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use src\tdd\FizzBuzz;
+use tdd\FizzBuzz;
 
 class FizzBuzzTest extends TestCase {
 

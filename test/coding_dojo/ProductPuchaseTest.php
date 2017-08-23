@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\ProductPurchase;
+use coding_dojo\ProductPurchase;
 
 
 class ProductPuchaseTest extends TestCase {

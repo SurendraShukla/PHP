@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\FreeChocolates;
+use coding_dojo\FreeChocolates;
 
 Class FreeChocolatesTest extends TestCase {
 

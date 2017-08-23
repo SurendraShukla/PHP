@@ -2,9 +2,9 @@
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use src\SOLID\ISP\Violation\Parrot;
-use src\SOLID\ISP\Violation\Penguin;
-use src\SOLID\ISP\Violation\Pigeon;
+use SOLID\ISP\Violation\Parrot;
+use SOLID\ISP\Violation\Penguin;
+use SOLID\ISP\Violation\Pigeon;
 
 class InterfaceSeperationTest extends TestCase {
 

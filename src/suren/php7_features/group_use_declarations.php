@@ -1,11 +1,11 @@
 <?php
 
-namespace src\suren\php7_features;
+namespace suren\php7_features;
 
 // Pre PHP 7 code
-use src\suren\php7_features\TestA;
-use src\suren\php7_features\TestB;
-use src\suren\php7_features\TestC as C;
+use suren\php7_features\TestA;
+use suren\php7_features\TestB;
+use suren\php7_features\TestC as C;
 
 use function src\suren\php7_features\fun_a;
 use function src\suren\php7_features\fun_b;
@@ -17,7 +17,7 @@ use const src\suren\php7_features\ConstC;
 
 
 // PHP 7+ code
-use src\suren\php7_features\{ClassA, ClassB, ClassC as Cnew};
+use suren\php7_features\{ClassA, ClassB, ClassC as Cnew};
 use function src\suren\php7_features\{fn_a, fn_b, fn_c};
 //use const src\suren\php7_features\{ConstA, ConstB, ConstC};
 

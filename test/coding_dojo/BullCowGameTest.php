@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use src\coding_dojo\BullCowGame;
+use coding_dojo\BullCowGame;
 
 class BullCowGameTest extends TestCase {
 

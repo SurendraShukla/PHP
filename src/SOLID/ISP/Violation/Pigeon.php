@@ -1,6 +1,6 @@
 <?php
 
-namespace src\SOLID\ISP\Violation;
+namespace SOLID\ISP\Violation;
 
 class Pigeon implements BirdInterface {
 
