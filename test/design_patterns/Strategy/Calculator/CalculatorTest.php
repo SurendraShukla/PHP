@@ -1,6 +1,6 @@
 <?php
 
-namespace test\design_patterns\Strategy\Calculator;
+namespace design_patterns\Strategy\Calculator;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;

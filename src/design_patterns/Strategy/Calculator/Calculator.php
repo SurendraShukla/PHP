@@ -1,11 +1,8 @@
 <?php
 
-namespace src\suren\design_patterns\Strategy;
+namespace design_patterns\Strategy;
 
-//$currentDir = dirname(dirname(__FILE__));
-//
-///** @var \Composer\Autoload\ClassLoader $loader */
-//require $currentDir.'/../../vendor/autoload.php';
+//require '/Suren/GitHub/PHP_Composer_Project/vendor/autoload.php';
 
 use src\suren\design_patterns\Strategy\behaviour\MultiplyOperator;
 use src\suren\design_patterns\Strategy\behaviour\Operator;

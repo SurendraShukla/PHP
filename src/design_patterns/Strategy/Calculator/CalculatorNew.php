@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\design_patterns\Strategy;
+namespace design_patterns\Strategy;
 
 //$currentDir = dirname(dirname(__FILE__));
 //

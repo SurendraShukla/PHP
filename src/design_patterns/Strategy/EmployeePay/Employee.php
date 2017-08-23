@@ -1,6 +1,6 @@
 <?php
 
-namespace src\design_patterns\Strategy\EmployeePay;
+namespace Strategy\EmployeePay;
 
 
 // Eum type in PHP

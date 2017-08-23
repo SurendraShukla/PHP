@@ -1,7 +1,7 @@
 <?php
-namespace src\suren\design_patterns\singleton;
+namespace design_patterns\singleton;
 
-require_once __DIR__ . '/2_singleton_lazy_loading_using_class_property.php';
+//require_once __DIR__ . '/2_singleton_lazy_loading_using_class_property.php';
 use \ReflectionClass;
 
 class ReflectionSingletonTest {

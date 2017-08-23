@@ -1,6 +1,6 @@
 <?php
 
-namespace src\suren\design_patterns\Strategy\behaviour;
+namespace design_patterns\Strategy\behaviour;
 
 
 class MultiplyOperator implements Operator{
