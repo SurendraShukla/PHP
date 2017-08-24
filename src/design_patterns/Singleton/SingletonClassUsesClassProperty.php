@@ -1,6 +1,6 @@
 <?php
 
-namespace design_patterns\singleton;
+namespace design_patterns\Singleton;
 
 class SingletonClassUsesClassProperty
 {
@@ -37,14 +37,5 @@ class SingletonClassUsesClassProperty
     }
 
 }//END Class
-//
-/////Testing some calls to that class
-$obj1 = SingletonClassUsesClassProperty::getInstance();
-//$obj2 = SingletonClassUsesClassProperty::getInstance();
-//$obj3 = SingletonClassUsesClassProperty::getInstance();
-//
-$obj1->logAndPrintMessage();
-//$obj2->logAndPrintMessage();
-//$obj3->logAndPrintMessage();
 
 // http://7php.com/how-to-code-a-singleton-design-pattern-in-php-5/

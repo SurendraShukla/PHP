@@ -1,7 +1,7 @@
 <?php
-namespace design_patterns\singleton;
+namespace design_patterns\Singleton;
 
-//require_once __DIR__ . '/2_singleton_lazy_loading_using_class_property.php';
+require_once __DIR__ . '/SingletonClassUsesClassProperty.php';
 use \ReflectionClass;
 
 class ReflectionSingletonTest {

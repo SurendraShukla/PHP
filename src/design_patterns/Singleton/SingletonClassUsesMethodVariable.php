@@ -31,11 +31,4 @@ final class SingletonClassUsesMethodVariable
 
 }
 
-$fact = SingletonClassUsesMethodVariable::Instance();
-$fact2 = SingletonClassUsesMethodVariable::Instance();
-
-echo "[" . ($fact === $fact2) . "]";
-//$fact = new SingletonClassUsesMethodVariable();
-
-
 //http://stackoverflow.com/questions/203336/creating-the-singleton-design-pattern-in-php5
