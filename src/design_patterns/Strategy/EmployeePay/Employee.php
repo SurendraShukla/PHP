@@ -1,6 +1,6 @@
 <?php
 
-namespace Strategy\EmployeePay;
+namespace design_patterns\Strategy\EmployeePay;
 
 
 // Eum type in PHP
@@ -49,8 +49,6 @@ class Employee
     {
         $pay = 0.0;
 
-        echo '['.$this->employeeType.']';
-
         if ($this->employeeType == EmployeeType::INTERN) {
             $pay = $this->basicSalary + ($this->basicSalary * 0.10);
         } else if ($this->employeeType == EmployeeType::WEB_DEVELOPER) {
@@ -63,9 +61,6 @@ class Employee
         return $pay;
     }
 }
-
-$employee = new Employee('Surendra', EmployeeType::INTERN, 10000);
-echo $employee->getPay();
 
 
 

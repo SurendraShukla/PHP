@@ -5,7 +5,7 @@ namespace design_patterns\Strategy\Comparator;
 
 use PHPUnit\Framework\TestCase;
 
-class StrategyTest extends TestCase
+class ComparatorTest extends TestCase
 {
     public function provideIntegers()
     {

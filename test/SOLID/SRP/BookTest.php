@@ -14,7 +14,7 @@ class BookTest extends TestCase{
 
         // Client Code
         //$plainTextPrinter = new PlainTextPrinter();
-        // $book = new Book($plainTextPrinter);
+        // $book = new BookIterator($plainTextPrinter);
 
         $htmlPrinter = new HtmlPrinter();
         $book = new Book($htmlPrinter);
@@ -24,7 +24,7 @@ class BookTest extends TestCase{
         $simpleFilePersistence->save($book);
 
         //
-        //$book = new Book($htmlPrinter, $simpleFilePersistence);
+        //$book = new BookIterator($htmlPrinter, $simpleFilePersistence);
         //$book->printCurrentPage();
         //$book->save();
         Assert::assertTrue(true);

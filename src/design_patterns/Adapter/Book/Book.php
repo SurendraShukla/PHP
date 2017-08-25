@@ -5,7 +5,7 @@ namespace design_patterns\Adapter\Book;
 use design_patterns\Adapter\Book\PaperBookInterface;
 
 /**
- * Book is a concrete and standard paper book.
+ * BookIterator is a concrete and standard paper book.
  */
 class Book implements PaperBookInterface
 {
@@ -14,7 +14,7 @@ class Book implements PaperBookInterface
      */
     public function open()
     {
-        echo "Book opened.";
+        echo "BookIterator opened.";
     }
 
     /**
