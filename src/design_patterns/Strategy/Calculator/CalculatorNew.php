@@ -38,11 +38,11 @@ class CalculatorNew {
     }
 
 }
-
-$cal = new CalculatorNew();
-echo $cal->operateOn('sum', 20, 10);
-$cal->addOperators('sum', new SumOperator());
-echo $cal->operateOn('sum', 20, 10);
-
-$cal->addOperators('sum', new SumOperator());
-echo $cal->operateOn('add', 20, 10);
+//
+//$cal = new CalculatorNew();
+//echo $cal->operateOn('sum', 20, 10);
+//$cal->addOperators('sum', new SumOperator());
+//echo $cal->operateOn('sum', 20, 10);
+//
+//$cal->addOperators('sum', new SumOperator());
+//echo $cal->operateOn('add', 20, 10);

@@ -2,7 +2,6 @@
 
 namespace design_patterns\Strategy;
 
-//require '/Suren/GitHub/PHP_Composer_Project/vendor/autoload.php';
 
 use design_patterns\Strategy\behaviour\Operator;
 use design_patterns\Strategy\behaviour\MultiplyOperator;
@@ -29,15 +28,3 @@ class Calculator {
     }
 
 }
-//
-//$cal = new Calculator(20, 10);
-//
-//$sum = new SumOperator();
-//echo $cal->operate($sum);
-//
-//$rest = new RestOperator();
-//echo $cal->operate($rest);
-//
-//$mult = new MultiplyOperator();
-//echo $cal->operate($mult);
-//
