@@ -3,7 +3,7 @@
 namespace design_patterns\Factory\FactoryMethod\Car;
 
 
-class hatchbackFactory implements CarFactory
+class HatchbackFactory implements CarFactory
 {
     public function makeCar(): Car
     {
