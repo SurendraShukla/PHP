@@ -5,7 +5,7 @@ namespace design_patterns\Factory\SimpleFactory\Computer;
 
 class ComputerFactory
 {
-    public static function getComputer(string $type, string $ram, string $hdd, string $cpu)
+    public static function getComputer(string $type, string $ram, string $hdd, string $cpu): Computer
     {
         switch ($type) {
             case "PC":
