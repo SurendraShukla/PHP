@@ -10,8 +10,8 @@ class PCFactory extends ComputerFactory
         string $ram,
         string $hdd,
         string $cpu
-    ) {
-        new PC($ram, $hdd, $cpu);
+    ): Computer {
+        return new PC($ram, $hdd, $cpu);
     }
 
 }

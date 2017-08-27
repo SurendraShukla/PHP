@@ -10,8 +10,8 @@ class ServerFactory extends ComputerFactory
         string $ram,
         string $hdd,
         string $cpu
-    ) {
-        new Server($ram, $hdd, $cpu);
+    ): Computer {
+        return new Server($ram, $hdd, $cpu);
     }
 
 }
