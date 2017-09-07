@@ -1,9 +1,16 @@
 <?php
 function getLines($file) {
     $f = fopen($file, 'r');
+    $returnData = '';
+    $counter =0 ;
     try {
         while ($line = fgets($f)) {
-            yield $line;
+            $returnData+=$line;
+            $counter++;
+            if( $counter % 30000 == 0) {
+//                $returnData='';
+                yield $returnData;
+            }
         }
     } finally {
         fclose($f);

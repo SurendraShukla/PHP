@@ -1,5 +1,8 @@
 <?php
-class MyClass
+class ParentClass {
+    public $var4 = 'public';
+}
+class MyClass extends ParentClass
 {
     public $var1 = 'value 1';
     public $var2 = 'value 2';
@@ -14,15 +17,18 @@ class MyClass
             print "$key => $value\n";
         }
     }
+
 }
 
 $class = new MyClass();
 
-foreach($class as $key => $value) {
-    print "$key => $value\n";
-}
-echo "\n";
-
-
-$class->iterateVisible();
-
+echo "[".$class instanceof stdClass."]";
+//
+//foreach($class as $key => $value) {
+//    print "$key => $value\n";
+//}
+//echo "\n";
+//
+//
+//$class->iterateVisible();
+//

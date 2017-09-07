@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: shuklas
- * Date: 8/17/17
- * Time: 2:08 PM
- */
 
 namespace suren\oops;
 

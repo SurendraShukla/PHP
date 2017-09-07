@@ -11,7 +11,7 @@ print_r(array_map($func, range(1, 5)));
 /*
  * Want to replace a string (:id) in all array-elements
  */
-$hayStack = ["BookIterator :id","Car :id","Cat :id"];
+$hayStack = ["BookIterator :id","CarTypes :id","Cat :id"];
 
 $replaced = array_map(function($element) use ($replace){
     return str_replace(":id",$replace,$element);

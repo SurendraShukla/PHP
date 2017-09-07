@@ -10,8 +10,8 @@ class ComputerFactoryTest extends TestCase
 {
     public function test()
     {
-        $pc = (new PCFactory())->getComputer("PC","2 GB","500 GB","2.4 GHz");
-        $server = (new ServerFactory())->getComputer("Server","16 GB","1 TB","2.9 GHz");
+        $pc = (new PCFactory())->getComputer("2 GB","500 GB","2.4 GHz");
+        $server = (new ServerFactory())->getComputer("16 GB","1 TB","2.9 GHz");
         echo "\nFactory PC Config::".$pc;
         echo "\nFactory Server Config::".$server;
 

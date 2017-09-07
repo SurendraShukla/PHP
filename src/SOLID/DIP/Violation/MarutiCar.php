@@ -29,7 +29,7 @@ class MarutiCar {
     }
 
     public function drive() {
-        return $this->description.' Car with '.$this->engine->getCylinders().' cylinders and '.$this->tires->getMake().' tires.';
+        return $this->description.' CarTypes with '.$this->engine->getCylinders().' cylinders and '.$this->tires->getMake().' tires.';
     }
 
 }

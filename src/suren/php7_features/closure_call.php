@@ -14,7 +14,7 @@ $getX = function() {
 
 
 // Pre PHP 7 code
-$getXCB = $getX->bindTo(new A, 'A'); // intermediate closure
+$getXCB = $getX->bindTo(new A(), 'suren\php7_features\A'); // intermediate closure
 $getXCB();
 
 // PHP 7+ code

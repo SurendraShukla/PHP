@@ -13,9 +13,9 @@ class BookTest extends TestCase
      */
     public function book()
     {
-        $kindle = new EBookAdapter(new Kindle());
-        $kindle->open();
-
+//        $kindle = new EBookAdapter(new Kindle());
+//        $kindle->open();
+//
         $bookObj = new Book();
         $bookObj->open();
 

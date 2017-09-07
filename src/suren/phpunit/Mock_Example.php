@@ -8,7 +8,7 @@ class Mock_Example {
     private $_name;
     private $_age;
 
-    private $_loginAttempted = 3;
+    private $_loginAttempted = 1;
 
     /**
      * Demo_Mock constructor.
