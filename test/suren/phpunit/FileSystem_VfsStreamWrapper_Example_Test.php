@@ -4,7 +4,7 @@ namespace test\suren;
 
 use PHPUnit\Framework\TestCase;
 
-class FileSystem_VfsStreamWrapper_Example_Test {
+class FileSystem_VfsStreamWrapper_Example_Test extends TestCase{
 
     public function setUp() {
         vfsStreamWrapper::register();

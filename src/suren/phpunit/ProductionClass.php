@@ -3,7 +3,7 @@
 namespace suren;
 
 
-class Mock_Example {
+class ProductionClass {
 
     private $_name;
     private $_age;

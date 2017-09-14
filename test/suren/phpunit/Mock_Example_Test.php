@@ -3,7 +3,7 @@
 namespace test\suren;
 
 use PHPUnit\Framework\TestCase;
-use suren\Mock_Example;
+use suren\ProductionClass;
 
 class Mock_Example_Test extends TestCase{
 
@@ -12,10 +12,10 @@ class Mock_Example_Test extends TestCase{
      */
     public function fullMock() {
         // Create a stub for the SomeClass class.
-        $dummy = $this->createMock(Mock_Example::class);
+        $dummy = $this->createMock(ProductionClass::class);
         print_r($dummy);
 
-        var_dump($dummy instanceof Mock_Example);
+        var_dump($dummy instanceof ProductionClass);
         echo "\n\n[".$dummy->getAge()."] [".$dummy->greet('wow').'] ['.$dummy->loginAttemptCheck().']';
         $this->assertEquals(null, $dummy->greet('Hi'));
 
@@ -42,7 +42,7 @@ class Mock_Example_Test extends TestCase{
      * @test
      */
     public function partialMock() {
-        $partialMock = $this->getMockBuilder(Mock_Example::class)
+        $partialMock = $this->getMockBuilder(ProductionClass::class)
             ->setMethods(['greet'])
             ->setConstructorArgs(array('Mignon', 2))
             ->getMock();
