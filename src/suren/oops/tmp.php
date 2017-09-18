@@ -2,7 +2,7 @@
 
 namespace suren\oops;
 
-//class StaticVsNonstatic {
+//class staticvsnonstatic {
 //
 //    const       STAT = 'S' ; // no dollar sign for constants (they are always static)
 //    static     $stat = 'Static' ;
@@ -21,7 +21,7 @@ namespace suren\oops;
 //        print "\n ";
 //    }
 //}
-//$obj = new StaticVsNonstatic();
+//$obj = new staticvsnonstatic();
 //$obj->showMe();
 //
 //

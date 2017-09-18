@@ -3,7 +3,7 @@
 namespace suren\oops;
 
 
-class ParentClass
+class ParentStaticClass
 {
 
     function className(){
@@ -20,7 +20,7 @@ class ParentClass
 
 }
 
-class ChildClass extends ParentClass
+class ChildStaticClass extends ParentStaticClass
 {
     function className(){
         return __CLASS__;
@@ -28,6 +28,6 @@ class ChildClass extends ParentClass
 
 }
 
-$obj = new ChildClass();
+$obj = new Child();
 echo "\n".$obj->selfName();
 echo "\n".$obj->staticName();

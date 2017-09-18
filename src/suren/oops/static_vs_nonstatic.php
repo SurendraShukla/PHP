@@ -23,12 +23,12 @@ class StaticVsNonstatic {
 }
 
 echo StaticVsNonstatic::$static;
-/*echo StaticVsNonstatic::$nonStatic;
-StaticVsNonstatic::staticMethod();
-StaticVsNonstatic::nonStaticMethod();*/
+/*echo staticvsnonstatic::$nonStatic;
+staticvsnonstatic::staticMethod();
+staticvsnonstatic::nonStaticMethod();*/
 
 
-//$obj = new StaticVsNonstatic();
+//$obj = new staticvsnonstatic();
 //echo $obj->nonStatic;
 //$obj->nonStaticMethod();
 

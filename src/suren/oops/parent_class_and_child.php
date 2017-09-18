@@ -1,4 +1,7 @@
 <?php
+
+namespace suren\oops;
+
 class ParentClass {
     // Redefine the parent method
     function displayVar() {
@@ -6,18 +9,18 @@ class ParentClass {
     }
 }
 
-class ChildClass extends ParentClass
+class ChildClass extends ParentStaticClass
 {
     // Redefine the parent method
     function displayVar() {
         echo "Extending class\n";
-        ParentClass::displayVar();
+        ParentStaticClass::displayVar();
     }
 
 
 }
 
-$extended = new ChildClass();
+$extended = new Child();
 $extended->displayVar();
 
 
