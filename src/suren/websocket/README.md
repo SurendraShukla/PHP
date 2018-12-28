@@ -9,5 +9,10 @@
  
 You will see current timestamp which will continuously updating!
 
-#### Sachet: http://socketo.me/
+#### Ratchet
 Ratchet is an open source and the best PHP WebSocket solution available at the moment.
+
+##### Links
+* Ratchet http://socketo.me/
+* https://medium.com/@cn007b/super-simple-php-websocket-example-ea2cd5893575
+*  
