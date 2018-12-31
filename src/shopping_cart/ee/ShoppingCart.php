@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace shopping_cart_ee;
+namespace shopping_cart\ee;
 
 
 class ShoppingCart {

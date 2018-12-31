@@ -2,16 +2,16 @@
 
 namespace suren\oops\inheritance;
 
-class ParentClass {
+class ParentClass_Property {
 
     public $name = 'ParentClass';
     public function getPropertyVal() {
-        $childClass = new ChildClass();
+        $childClass = new ChildClass_Property();
         return $this->name;
     }
 }
 
-class ChildClass extends ParentClass {
+class ChildClass_Property extends ParentClass_Property {
 
     public function __construct() {
         $this->name = 'ChildClass';
@@ -22,6 +22,6 @@ class ChildClass extends ParentClass {
 
 }
 
-$obj = new ParentClass();
+$obj = new ParentClass_Property();
 echo $obj->getPropertyVal();
 

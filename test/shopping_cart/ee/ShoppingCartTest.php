@@ -1,18 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: shuklas
- * Date: 6/3/17
- * Time: 10:33 AM
- */
 
-namespace test;
-
+namespace shopping_cart\ee;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
-use shopping_cart_ee\Product;
-use shopping_cart_ee\ShoppingCart;
+use shopping_cart\ee\Product;
+use shopping_cart\ee\ShoppingCart;
 
 class ShoppingCartTest extends TestCase
 {

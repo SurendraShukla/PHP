@@ -11,7 +11,7 @@ class Annotations_Example_Test extends TestCase {
 
     /**
      * @test
-     * @requires PHP 7.1
+     * @requires PHP 7.3
      */
     public function connection()
     {

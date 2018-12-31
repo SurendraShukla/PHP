@@ -8,7 +8,7 @@ namespace suren\oops\inheritance;
  * which led to the parent class’ method being executed instead of the child class’ method.
  * Making this parent class method `protected` works
  */
-class ParentClass {
+class ParentClass_PrivateMethod {
 
     private $a;
     public $b;
@@ -26,7 +26,7 @@ class ParentClass {
     }
 }
 
-class ChildClass extends ParentClass {
+class ChildClass_PrivateMethod extends ParentClass_PrivateMethod {
 
     private $c;
     public $d;
@@ -41,7 +41,7 @@ class ChildClass extends ParentClass {
 
 }
 
-$obj = new ChildClass();
+$obj = new ChildClass_PrivateMethod();
 $obj->methodCallFromChild();
 
 
