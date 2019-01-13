@@ -12,7 +12,6 @@ class PremiumCustomer extends Customer {
                                 );
 
     public static function getDiscountSlab() {
-        echo 'inside PremiumCustomer getDiscountSlab()';
         return PremiumCustomer::$discountSlabs;
     }
 } 

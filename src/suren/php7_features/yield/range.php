@@ -21,6 +21,8 @@ function rangeYield() {
     }
 }
 
-foreach(rangeYield() as $post)
+
+foreach(rangeYield() as $post) {
     echo "\n".$post;
+}
 
